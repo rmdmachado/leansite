@@ -83,15 +83,17 @@ Typography
 /*
 Typography
 */
+
 @font-face {
-    font-family: Din;
-    src: url(http://www.leanstartupminho.com/fonts/DIN.ttf);
+    font-family: 'Proxima Nova';
+    src: url('fonts/Proxima Nova.otf');
     }
     @font-face {
-    font-family: Din Alternate;
-    src: url(http://www.leanstartupminho.com/fonts/DIN Alternate Black.ttf);
+    font-family: 'Proxima Bold';
+    src: url('fonts/Proxima Bold.otf');
     font-weight: 600;
 }
+
 ::selection {
 	background: #ffb8b4; /* Safari */
 	}
