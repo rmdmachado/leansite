@@ -80,6 +80,18 @@ a:hover {
 /*
 Typography
 */
+/*
+Typography
+*/
+@font-face {
+    font-family: Din;
+    src: url(http://www.leanstartupminho.com/fonts/DIN.ttf);
+    }
+    @font-face {
+    font-family: Din Alternate;
+    src: url(http://www.leanstartupminho.com/fonts/DIN Alternate Black.ttf);
+    font-weight: 600;
+}
 ::selection {
 	background: #ffb8b4; /* Safari */
 	}
