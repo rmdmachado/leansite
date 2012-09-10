@@ -80,20 +80,13 @@ a:hover {
 /*
 Typography
 */
-/*
-Typography
-*/
 
 @font-face {
     font-family: 'Proxima Nova';
-    src: url('fonts/Proxima Nova.otf');
+    src: url(http://leanstartupminho.com/fonts/Proxima Nova.otf);
+    src: url(http://leanstartupminho.com/fonts/DIN.ttf)
     }
-    @font-face {
-    font-family: 'Proxima Bold';
-    src: url('fonts/Proxima Bold.otf');
-    font-weight: 600;
 }
-
 ::selection {
 	background: #ffb8b4; /* Safari */
 	}
@@ -106,21 +99,20 @@ w{
 }
 
 h1{
-	font: 220% "DIN Alternate Black";
 	text-shadow: 0px 1px #fff;
-	line-height: 1.5em;
 	text-align: right;
 	color: #353535;
+	font: bold 220%/1.5em Proxima Nova;
 }
 h2{
-	font: 150% "DIN Alternate Black";
+	font: 150% Proxima Nova;
 	text-align: right;
 	color: #353535;
 	text-shadow: 1px 1px #fff;
 	margin-top: 30px;
 }
 h3{
-	font:  120% "DIN";
+	font:  130% Proxima Nova;
 	line-height: 1.5em;
 	text-align: right;
 	color: #575757;
@@ -131,14 +123,14 @@ h3{
 	text-shadow: 1px 1px #fff;
 }
 h4{
-	font:  1em "DIN";
+	font:  1em Proxima Nova;
 	line-height: 1.8em;
 	text-align: center;
 	color: #575757;
 	margin-right: 1%;
 }
 h5{
-	font:  0.9em "DIN";
+	font:  0.9em Proxima Nova;
 	line-height: 1.3em;
 	text-align: center;
 	color: #fff;
@@ -147,7 +139,7 @@ h5{
 	text-shadow: 0px 1px #be5650;
 }
 h6{
-	font:  100% "DIN";
+	font:  100% Proxima Nova;
 	line-height: 1.5em;
 	text-align: right;
 	color: #575757;
@@ -155,8 +147,8 @@ h6{
 	
 }
 #date{
-	font:  1.3em "DIN";
-	line-height: 1.8em;
+	font:  1.3em Proxima Nova;
+	line-height: 1.4em;
 	text-align: right;
 	color: #fff;
 	margin-right: 10px;
@@ -168,8 +160,8 @@ h6{
 #social h3{
 	color: white;
 	text-align: center;
-	font-size: 1.1em;
-	line-height: 1em;
+	font-size: 1em;
+	line-height: 1.3em;
 	text-decoration: none;
 }
 #footer h4{
@@ -198,9 +190,8 @@ h6{
 	text-align: center;
 }
 #header h1{
-	font: 250% "DIN Alternate Black";
+	font: bold 250%/1em Proxima Nova;
 	color: #ed7f7a;
-	line-height: 1em;
 	margin-top: 25px;
 }
 #nextevent h1{
@@ -213,7 +204,7 @@ h6{
 Geral
 */
 body{
-	background-image: url(groovepaper.png);
+	background-image: url(images/groovepaper.png);
 }
 #geral{
 	margin: auto;
