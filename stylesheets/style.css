@@ -151,13 +151,13 @@ header h1 {
   margin-bottom: 15px;
 }
 
-#next-event #date {
+#next-event .date {
   display: block;
   margin-bottom: 15px;
   text-align: right;
 }
 
-#next-event #local {
+#next-event .local {
   display: block;
   margin-bottom: 15px;
   text-align: right;
@@ -185,7 +185,7 @@ header h1 {
   margin-bottom: 15px;
 }
 
-#old-event #date {
+#old-event .date {
   display: block;
   margin-bottom: 15px;
   text-align: right;
