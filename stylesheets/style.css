@@ -143,6 +143,12 @@ header h1 {
 	color: rgba(0,130,189,0.5);;
 }
 
+#special .date {
+  display: block;
+  margin-bottom: 15px;
+  text-align: right;
+}
+
 #next-event {
   color: #FFF;
   background-color: #0082BD;
